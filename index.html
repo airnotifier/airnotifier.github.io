@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="AirNotifier : Generic backend for iOS apps written in Python (Push notification, data/file storage, user management), under heavy development, not production ready." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>AirNotifier</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/dongsheng/airnotifier">Fork Me on GitHub</a>
+
+          <h1 id="project_title">AirNotifier</h1>
+          <h2 id="project_tagline">Generic backend for iOS apps written in Python (Push notification, data/file storage, user management), under heavy development, not production ready.</h2>
+
+          <section id="downloads">
+            <a class="zip_download_link" href="https://github.com/dongsheng/airnotifier/zipball/master">Download this project as a .zip file</a>
+            <a class="tar_download_link" href="https://github.com/dongsheng/airnotifier/tarball/master">Download this project as a tar.gz file</a>
+          </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>Introduction</h2>
+
+<p>AirNotifier is a REST server for apple push notification service, users and resources management, it's a strong and generic backend for iOS apps.</p>
+
+<p>APNs requires a certification to set up SSL connection, in some situations, we needs multi server instances without sharing certification file, we need a push notification forwarder, other instances send notification requests to it, it setup the SSL connection and send them all.</p>
+
+<h2>Status</h2>
+
+<p>Under heavy development</p>
+
+<h2>Design</h2>
+
+<ul>
+<li><a href="https://github.com/dongsheng/airnotifier/wiki/Specification">Product design</a></li>
+</ul><h2>API documentation</h2>
+
+<ul>
+<li><a href="https://github.com/dongsheng/airnotifier/wiki/API">API (In progress)</a></li>
+</ul><h2>Features</h2>
+
+<ul>
+<li>Generic backend for iOS app (Users, resources management) in the Cloud</li>
+<li>Restful API allows providers to send notification through straightforward restful interface</li>
+<li>Access key management</li>
+<li>Logging activities</li>
+<li>Non-blocking API design allows master provider to handle large loads of request smoothly</li>
+</ul><h2>Requirements</h2>
+
+<h3>Server stack</h3>
+
+<ul>
+<li><a href="http://www.python.org">Python 2.7+</a></li>
+<li><a href="http://www.mongodb.org/">MongoDB</a></li>
+<li><a href="http://tornadoweb.org">Tornado 2.0</a></li>
+</ul><h2>Copyright</h2>
+
+<p>Copyright (c) 2012, Dongsheng Cai</p>
+
+<h2>License</h2>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:</p>
+
+<pre><code>* Redistributions of source code must retain the above copyright
+  notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+* Neither the name of the Dongsheng Cai nor the names of its 
+  contributors may be used to endorse or promote products derived
+  from this software without specific prior written permission.
+</code></pre>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL DONGSHENG CAI BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">AirNotifier maintained by <a href="https://github.com/dongsheng">dongsheng</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
