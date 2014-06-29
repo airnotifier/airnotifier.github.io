@@ -1,64 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <title>AirNotifier by airnotifier</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>AirNotifier by dongsheng</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>AirNotifier</h1>
-        <h2>iOS Push Notifications Server</h2>
-        <a href="https://github.com/dongsheng/airnotifier" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h2>
+      <header>
+        <h1>AirNotifier</h1>
+        <p>Easy to use push notifications for iOS, Android and Windows</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/airnotifier/airnotifier" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/airnotifier/airnotifier/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/airnotifier/airnotifier/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h2>
 <a name="introduction" class="anchor" href="#introduction"><span class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>AirNotifier is a REST server for apple push notification service, users and resources management, it's a strong and generic backend for iOS apps.</p>
-
-<p>APNs requires a certification to set up SSL connection, in some situations, we needs multi server instances without sharing certification file, we need a push notification forwarder, other instances send notification requests to it, it setup the SSL connection and send them all.</p>
+<p>AirNotifier is an easy-to-use yet professional application server for sending real-time notifications to mobile and desktop applications. AirNotifier provides an unified web service interface to deliver messages to multi devices using multi protocols, it also features a friendly web based administrator UI to configure and manage services.</p>
 
 <h2>
-<a name="status" class="anchor" href="#status"><span class="octicon octicon-link"></span></a>Status</h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
 
-<p>Getting ready for production</p>
+<ul>
+<li>Multi devices: iOS(APNs), Android(GCM), Windows Phone(WNS/MPNS), Windows 8.1(MPNS)</li>
+<li>Subscribe to multi channels</li>
+<li>Unlimited number of devices and channels</li>
+<li>API access control</li>
+<li>Web-based UI to configure</li>
+<li>Broadcase notifications</li>
+<li>Access key management</li>
+<li>Logging activities</li>
+<li>Apple Feedback API</li>
+<li>GCM broadcast API</li>
+<li>Non-blocking API design allows master provider to handle large loads of request smoothly</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Please read <a href="https://github.com/airnotifier/airnotifier/wiki/Installation">Installation guide</a></p>
 
 <h2>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h2>
+
+<p><code>airnotifier.conf</code> is the config file, options:</p>
+
+<ul>
+<li>pemdir: The directory storing APNS certificate</li>
+<li>passwordsalt: passwordsalt</li>
+<li>masterdb: MongoDB database name</li>
+<li>dbprefix: MongoDB collection name prefix, this will be used to create object data collection</li>
+</ul><h2>
 <a name="design" class="anchor" href="#design"><span class="octicon octicon-link"></span></a>Design</h2>
 
 <ul>
 <li><a href="https://github.com/dongsheng/airnotifier/wiki/Specification">Product design</a></li>
 </ul><h2>
-<a name="api-documentation" class="anchor" href="#api-documentation"><span class="octicon octicon-link"></span></a>API documentation</h2>
+<a name="web-service-documentation" class="anchor" href="#web-service-documentation"><span class="octicon octicon-link"></span></a>Web service documentation</h2>
 
 <ul>
-<li><a href="https://github.com/dongsheng/airnotifier/wiki/API">API (In progress)</a></li>
-</ul><h2>
-<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
-
-<ul>
-<li>Generic backend for iOS app (Users, resources management) in the Cloud</li>
-<li>Restful API allows providers to send notification through straightforward restful interface</li>
-<li>Access key management</li>
-<li>Logging activities</li>
-<li>Non-blocking API design allows master provider to handle large loads of request smoothly</li>
+<li><a href="https://github.com/dongsheng/airnotifier/wiki/API">Web service interfaces (In progress)</a></li>
 </ul><h2>
 <a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h2>
 
@@ -66,13 +91,13 @@
 <a name="server-stack" class="anchor" href="#server-stack"><span class="octicon octicon-link"></span></a>Server stack</h3>
 
 <ul>
-<li><a href="http://www.python.org">Python 2.7+</a></li>
-<li><a href="http://www.mongodb.org/">MongoDB</a></li>
-<li><a href="http://tornadoweb.org">Tornado 3.0</a></li>
+<li><a href="http://www.python.org">Python 2.6+</a></li>
+<li><a href="http://www.mongodb.org/">MongoDB 2.0+</a></li>
+<li><a href="http://tornadoweb.org">Tornado 3.0+</a></li>
 </ul><h2>
 <a name="copyright" class="anchor" href="#copyright"><span class="octicon octicon-link"></span></a>Copyright</h2>
 
-<p>Copyright (c) 2012-2014, Dongsheng Cai All Rights Reserved</p>
+<p>Copyright (c) 2012, Dongsheng Cai</p>
 
 <h2>
 <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
@@ -100,25 +125,13 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
 ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/dongsheng/airnotifier/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/dongsheng/airnotifier/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/dongsheng/airnotifier"></a> is maintained by <a href="https://github.com/dongsheng">dongsheng</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/airnotifier">airnotifier</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-
-  
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
