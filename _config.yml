@@ -2,7 +2,7 @@ title: AirNotifier
 description: Easy to use push notifications for iOS, Android and Windows
 google_analytics: UA-52392227-1
 show_downloads: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 
 gems:
   - jekyll-mentions
