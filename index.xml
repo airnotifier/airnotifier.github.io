@@ -45,7 +45,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       <pubDate>Sun, 18 Nov 2018 12:33:46 +1000</pubDate>
       
       <guid>/features/web-ui/</guid>
-      <description>Web-based UI to configure</description>
+      <description>Web-based UI to add/edit mobile apps.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
       
       <guid>/features/api/</guid>
-      <description>API access control</description>
+      <description>Rest API to register devices and send push notifications.</description>
     </item>
     
     <item>
@@ -63,7 +63,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
       <guid>/features/access-token/</guid>
-      <description>Access key management</description>
+      <description>Access tokens management for fine grained permissions and security.</description>
     </item>
     
     <item>
@@ -72,7 +72,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
       
       <guid>/features/logging/</guid>
-      <description>Logging activities</description>
+      <description>Logging and auditing feature to review API requests.</description>
     </item>
     
     <item>
