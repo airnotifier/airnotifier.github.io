@@ -30,17 +30,6 @@
     </item>
     
     <item>
-      <title>Mergers</title>
-      <link>/features/mergers/</link>
-      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
-      
-      <guid>/features/mergers/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
-    </item>
-    
-    <item>
       <title>API</title>
       <link>/features/api/</link>
       <pubDate>Wed, 28 Nov 2018 15:15:26 +1000</pubDate>
@@ -50,14 +39,21 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
     </item>
     
     <item>
-      <title>Superannuation</title>
-      <link>/features/superannuation/</link>
+      <title>Access token</title>
+      <link>/features/access-token/</link>
       <pubDate>Wed, 28 Nov 2018 15:14:54 +1000</pubDate>
       
-      <guid>/features/superannuation/</guid>
-      <description>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis. Ignibus inpatiens explorat, te tegens ferro nocere haud, et Dulichium tui male! Quo sed fuit flexit et hic die solido, gloria?
- Cum det dixit Parcarum qui spemque est Exit ex huic Quod consiste agitataque claustraque vicina videt lacertis Loquor videt Ardua non igne caelesti coniugis cognovi diversorum Per nunc pariterque saeva vindicet  Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco vati dabant deus.</description>
+      <guid>/features/access-token/</guid>
+      <description>Access key management</description>
+    </item>
+    
+    <item>
+      <title>Logging</title>
+      <link>/features/logging/</link>
+      <pubDate>Wed, 28 Nov 2018 15:15:34 +1000</pubDate>
+      
+      <guid>/features/logging/</guid>
+      <description>Logging activities</description>
     </item>
     
     <item>
@@ -66,7 +62,7 @@ Ne verba patulosque numen vix libet Agitabitur signa lympha; non lacunae, mox cu
       <pubDate>Wed, 28 Nov 2018 15:14:39 +1000</pubDate>
       
       <guid>/features/devices/</guid>
-      <description>Multiple platforms and unlimited number of devices</description>
+      <description>Multiple platforms and unlimited number of devices, firebase cloud messaging for iOS/Android/Chrome, HTTP/2 based APNS implementation</description>
     </item>
     
   </channel>

@@ -23,6 +23,21 @@
   </url>
   
   <url>
+    <loc>/features/api/</loc>
+    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/features/access-token/</loc>
+    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/features/logging/</loc>
+    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/features/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
   </url>
@@ -30,21 +45,6 @@
   <url>
     <loc>/</loc>
     <lastmod>2018-11-28T15:15:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/features/mergers/</loc>
-    <lastmod>2018-11-28T15:15:34+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/features/api/</loc>
-    <lastmod>2018-11-28T15:15:26+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/features/superannuation/</loc>
-    <lastmod>2018-11-28T15:14:54+10:00</lastmod>
   </url>
   
   <url>
